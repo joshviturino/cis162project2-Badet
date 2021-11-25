@@ -1,0 +1,79 @@
+/* grid i hope */
+
+.grid-container {
+
+  display: grid;
+  padding: 10px;
+}
+.grid-item1  {
+  grid-row: 1;
+  grid-column: 1/3;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item2  {
+
+  padding: 20px;
+  
+}
+.grid-item3  {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+/* grid for page body*/
+body {
+  
+  display:grid;
+  
+  background-color:  rgb(34, 110, 156);
+}
+/* grid styles for nested grid */
+
+.toppage { 
+  padding: 16px 16px;
+  margin: 40px;
+  border: 10px solid rgb(7, 40, 73);
+  text-align: center;
+ 
+}
+
+nav li a {
+  
+  padding: 0px 0px;
+  margin: 10px;
+  list-style: none;  
+  text-align: center;
+  
+}
+
+nav ul {
+  
+  font-size: 25px;
+  font-family: 'Brush Script MT', cursive;
+  list-style: none; 
+  padding: 16px 16px;
+  margin: 40px;
+  border: 15px solid rgb(7, 40, 73);
+  text-align: left;
+  
+  
+}
+li a:hover:not(.active){
+  background-color: rgb(93, 119, 158);
+  color:rgb(42, 91, 170)
+}
+.p1 {
+  font-size: 30px;
+  font-family: 'Brush Script MT', cursive;
+  list-style: none; 
+  padding: 16px 16px;
+  margin: 40px;
+  border: 20px solid rgb(7, 40, 73);
+  text-align: center;
+  color:rgb(49, 50, 58)
+  
+}
+  
+
